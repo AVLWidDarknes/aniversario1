@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#ff758f;
+}
+.contenedor{
+    background:#ff758f;
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+}
+
+p{
+    font-size: 35px;
+    padding:60px 0 20px 0;
+    color: #fff;
+    font-family: "Pacifico", cursive;
+    text-shadow: #000 2px 0 10px;
+    text-align: center;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    width: 180px;
+    background-color: #ff8fa3;
+    border: 5px solid #fff ;
+    border-radius: 4px;
+
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
+.yesButton:hover{
+    background-color: #ff6783;
+    cursor: pointer;
+}
+.contenedor-imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.gatitos{
+    width: 250px;
+    display: inline-block;
+
+}
