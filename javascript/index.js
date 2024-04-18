@@ -15,5 +15,5 @@ noBtn.addEventListener('mouseover', function () {
     noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
 })
 function redireccion(){
-    window.location.href = "../tarjeta.html";
+    window.location.href = "https://avlwiddarknes.github.io/aniversario/tarjeta.html";
 }
